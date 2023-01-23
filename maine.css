@@ -1,8 +1,10 @@
 body{
     width: 100%;
-
     margin: 0;
+
+
     box-sizing: border-box;
+    font-family: 'Unbounded', cursive;
 
 
 
@@ -12,11 +14,14 @@ body{
     display: flex;
     width: 100%;
     height: 70px;
+    position: fixed;
+    color: black;
+    background-color:white;
 
 
 }
 .logo{
-    width: 60%;
+    width: 52%;
 
     display: flex;
     justify-content: center;
@@ -24,6 +29,7 @@ body{
     text-transform: uppercase;
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
+    font-weight: 700;
 
 
 }
@@ -63,6 +69,8 @@ p{
     align-items: center;
 
 
+
+
 }
 .inner{
 
@@ -70,29 +78,34 @@ p{
     display: block;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 10px;
+
 
 
 
 }
 .inner__2{
     margin-bottom: 50px;
-    font-size: 18px;
+    font-size: 16px;
     display: block;
     color: #e8e39b;
+    font-weight: 400;
 }
 .btn {
     text-align: center;
     justify-content: center;
     display: flex;
+    color: #525151;
 
     text-transform: uppercase;
-    border-radius: 15px;
+    border-radius: 27px;
     height: 35px;
     width: 150px;
     border: 2px #fff solid;
     align-items: center;
     background-color: white;
     font-size: 12px;
+    font-weight: 700;
 }
 .btn:hover{
     transition: color 1s ;
@@ -101,11 +114,13 @@ p{
 }
 
 .blog{
-    margin: 100px 200px;
+    margin: 75px 300px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 900px;
+
 
 }
 .autor__img{
@@ -122,18 +137,23 @@ p{
     max-width: 1100px;
 
 }
+.blog__img{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
 .btn__blog{
     text-align: center;
     justify-content: center;
     display: flex;
     margin-top: 30px;
-
+    font-weight: 700;
     border-radius: 20px;
     height: 35px;
     width: 150px;
     border: 1px #525151 solid;
     align-items: center;
-    background-color: #e8e5e5;
+    background-color: #fff;
     font-size: 12px;
     color: #525151;
 }
@@ -141,6 +161,7 @@ p{
     transition: color 1s;
     background-color: #e8e39b;
     border: none;
+    font-weight: 700;
 }
 
 
@@ -162,17 +183,23 @@ p{
     margin-right: 10px;
 }
 
-.autor__txt{
+.autor__txt {
     margin-right: 10px;
     margin-left: 10px;
+}
 
+
+.coment{
+    padding-bottom: 7px;
+    margin-left: 10px;
 }
 
 hr{
     background-color: #525151;
     display: block;
-    width: 1100px;
-    margin-top:100px;
+    margin-top:75px;
+    width: 100%;
+
 }
 
 .futer{
@@ -180,18 +207,31 @@ hr{
     height: 275px;
     background-color: black;
     display: flex;
+    align-items: center;
+
 
 }
 .futer1{
     box-sizing: border-box;
     width: 50%;
     color: white;
-    padding: 50px 200px;
+    padding-left: 250px;
+
 }
 .futer_tt{
     color: #525151;
 
 }
+
+h2, h1, a, .logo{
+    font-family: 'Unbounded', cursive;
+    margin: 0;
+
+
+
+
+}
+
 
 
 
